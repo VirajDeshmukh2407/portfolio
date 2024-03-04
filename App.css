@@ -1,0 +1,31 @@
+
+
+:root{
+    /* --primary:  */
+    --header: #FFFBF5;
+    --background: #ece9e4bd;
+    --back:#d1ccc3d7;
+    --cards:#dad6d2;
+    --text:#2C3333;
+}
+
+html{
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+*{
+    max-height: 100%;
+    color: var(--background);
+    
+}
+.app-div{
+    max-height: 100%;
+}
+/* @media(max-width:375px){
+    html{
+        max-width: 50%;
+    }
+    .app-div{
+        max-width: 50%;
+    }
+} */
