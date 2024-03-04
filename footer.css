@@ -1,0 +1,14 @@
+.footer-container{
+    position: absolute;
+    top:518%;
+    background-color: rgba(10, 86, 226, 0.733);
+    width: 100%;
+}
+
+.footer-title{
+    text-align: center;
+}
+.footer-title h2{
+    color: black;
+    font-size: 17px;
+}
