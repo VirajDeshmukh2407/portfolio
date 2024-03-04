@@ -1,0 +1,68 @@
+
+.About-container{
+    width: 1280px;
+    height: 600px;
+    position: absolute;
+    top: 95%;
+    padding: 10px;
+    margin: 20px;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.About-container h1{
+
+    color: var(--text);
+    position: relative;
+    left: 4%;
+    width: 11rem;
+}
+
+ .img{
+    width: 23rem;
+    position: relative;
+    top: 25%;
+    left: 3%;
+    height: 29rem;
+    border-radius: 25%;
+    /* margin-top: 27px; */
+    /* box-shadow: 1 1 1 1 rgba(0,0,0,0.3); */
+    /* animation: slideIn 0.5s ease-out forwards; */
+}
+
+ .About-description p{
+    width: 37rem;
+    padding: 1rem;
+    letter-spacing: 0.5px;
+    color: var(--text);
+    position: absolute;
+    top: 49%;
+    left: 30rem;
+    /* animation: slideIn 0.5s ease-out forwards; */
+}
+
+.About-container p{
+    color: var(--text);
+}
+
+ .About-description h1{
+    position: absolute;
+    top: 34%;
+    left: 40rem;
+    width: 17rem;
+    color: var(--text);
+    /* animation: slideIn 0.5s ease-out forwards; */
+}
+
+
+
+/* ---------------------------------------- responsive  section */
+

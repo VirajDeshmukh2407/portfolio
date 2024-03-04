@@ -1,0 +1,92 @@
+.skills-container {
+    width: 1300px;
+    height: 380px;
+    position: absolute;
+    top: 210%;
+    padding: 10px;
+    margin: 10px;
+    background:var(--background);
+    /*; */
+}
+
+.skills-container .my-skill {
+    
+    position: relative;
+    left: 4%;
+    width: 10rem;
+}
+
+.skills-container h1{
+    color: var(--text);
+}
+.skills-set{
+    position: relative;
+    left: 3%;
+    top: 7%;
+    margin-top: 20px;
+    height: 14rem;
+    width: 70rem;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* gap: 10px; */
+}
+.skill{
+
+    border: 1px solid black;
+    border-radius: .6rem;
+    /* padding: 5rem; */
+    height: 5rem;
+    width: 20rem;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+       
+}
+.skill:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+
+
+.skill i.fab {
+    font-size: 3rem; 
+    padding: 6px;
+    position: relative;
+
+  }
+.skill i.fab.fa-html5{
+    color: #e34c26; 
+
+  }
+  
+  .skill i.fab.fa-css3 {
+    color: #1572b6; 
+  }
+
+  .skill i.fab.fa-js {
+    color: #beca10; 
+  }
+  
+  .skill i.fab.fa-react {
+    color: #61dafb; 
+    /* margin-top: 10px; */
+  }
+  
+  .skill i.fab.fa-java {
+    color: #007396; 
+  }
+  
+  .skill i.fab.fa-github {
+    color: #211f1f; 
+  }
+  
+  
+  .skill span {
+    font-size: 17px;
+    color: #333; 
+    position: relative;
+    font-weight: 600;
+  }
+
+  
